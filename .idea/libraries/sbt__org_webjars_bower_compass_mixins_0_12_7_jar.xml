@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: org.webjars.bower:compass-mixins:0.12.7:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.webjars.bower/compass-mixins/jars/compass-mixins-0.12.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.webjars.bower/compass-mixins/srcs/compass-mixins-0.12.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

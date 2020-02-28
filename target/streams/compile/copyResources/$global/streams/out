@@ -1,0 +1,4 @@
+[debug] Copy resource mappings: 
+[debug] 	(/Users/laika/Documents/weso/wbschema2code/conf/logback.xml,/Users/laika/Documents/weso/wbschema2code/target/scala-2.12/classes/logback.xml)
+[debug] 	(/Users/laika/Documents/weso/wbschema2code/conf/application.conf,/Users/laika/Documents/weso/wbschema2code/target/scala-2.12/classes/application.conf)
+[debug] 	(/Users/laika/Documents/weso/wbschema2code/conf/routes,/Users/laika/Documents/weso/wbschema2code/target/scala-2.12/classes/routes)

@@ -1,0 +1,10 @@
+[error] /Users/laika/Documents/weso/wbschema2code/app/assets/stylesheets/nav.sass:4: Error: Mixin "shadow2xl" does not accept a content block.
+[error] 
+[error]        Backtrace:
+[error]        	app/assets/stylesheets/nav.sass:4
+[error]         on line 4 of app/assets/stylesheets/nav.sass
+[error] >>   @include shadow2xl {
+[error]    -----------^
+[error]   +shadow2xl
+[error]            ^
+[error] one error found
