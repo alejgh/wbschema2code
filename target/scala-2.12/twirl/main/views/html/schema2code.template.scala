@@ -30,14 +30,11 @@ Seq[Any](format.raw/*1.1*/("""<section id="top">
 </section>
 
 <div id="content" class="wrapper doc">
-  <article>
-
-    <h1>Welcome to Play</h1>
-
-    <p>
-      Congratulations, you’ve just created a new Play application. This page will help you with the next few steps.
-    </p>
-  </article>
+  <form>
+    <label for="schema">Entity schema: </label><br>
+    <input type="text" name="schema" value="Schema..."><br>
+    <input type="submit" value="Submit">
+  </form>
 </div>
 """))
       }
@@ -55,9 +52,9 @@ Seq[Any](format.raw/*1.1*/("""<section id="top">
 
               /*
                   -- GENERATED --
-                  DATE: 2020-02-27T18:40:14.558
+                  DATE: 2020-02-28T09:01:35.740
                   SOURCE: /Users/laika/Documents/weso/wbschema2code/app/views/schema2code.scala.html
-                  HASH: f31bb3e3e25475f07f6e6904c26f8e41a0807b51
+                  HASH: ba1980dc2a9b0ada7ee10eb59d77ab637f525121
                   MATRIX: 817->0
                   LINES: 26->1
                   -- GENERATED --
