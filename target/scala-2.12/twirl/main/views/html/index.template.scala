@@ -40,8 +40,8 @@ Seq[Any](_display_(/*1.2*/main(schema2code())),format.raw/*1.21*/("""
 
               /*
                   -- GENERATED --
-                  DATE: 2020-02-27T18:40:14.561
-                  SOURCE: /Users/laika/Documents/weso/wbschema2code/app/views/index.scala.html
+                  DATE: 2020-02-29T11:50:44.596
+                  SOURCE: /Users/alejandro/Documents/weso/wikimedia/wbschema2code/app/views/index.scala.html
                   HASH: d12c466787178a8a68927bd4521d183a1c8b71ae
                   MATRIX: 811->1|850->20
                   LINES: 26->1|26->1

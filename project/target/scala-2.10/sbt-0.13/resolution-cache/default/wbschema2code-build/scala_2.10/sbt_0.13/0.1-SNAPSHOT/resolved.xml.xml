@@ -4,7 +4,7 @@
 		module="wbschema2code-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20200227154906"
+		publication="20200229222817"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>

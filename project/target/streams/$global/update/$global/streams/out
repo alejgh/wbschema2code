@@ -1,4 +1,4 @@
-[info] Updating {file:/Users/laika/Documents/weso/wbschema2code/project/}wbschema2code-build...
+[info] Updating {file:/Users/alejandro/Documents/weso/wikimedia/wbschema2code/project/}wbschema2code-build...
 [debug] :: resolving dependencies :: default#wbschema2code-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
@@ -1241,20 +1241,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [info] Resolving org.irundaia.sbt#sbt-sassify;1.4.11 ...
 [debug] sbt-chain: Checking cache for: dependency: org.irundaia.sbt#sbt-sassify;1.4.11 {compile=[default(compile)]}
-[info] Resolving org.irundaia.sbt#sbt-sassify;1.4.11 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.irundaia.sbt#sbt-sassify;1.4.11 {compile=[default(compile)]}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.irundaia.sbt/sbt-sassify/scala_2.10/sbt_0.13/1.4.11/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.irundaia.sbt/sbt-sassify/scala_2.10/sbt_0.13/1.4.11/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.irundaia.sbt#sbt-sassify;1.4.11
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.irundaia.sbt/sbt-sassify/scala_2.10/sbt_0.13/1.4.11/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: found md file for org.irundaia.sbt#sbt-sassify;1.4.11
-[debug] 		=> https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.irundaia.sbt/sbt-sassify/scala_2.10/sbt_0.13/1.4.11/ivys/ivy.xml (1.4.11)
-[debug] downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.irundaia.sbt/sbt-sassify/scala_2.10/sbt_0.13/1.4.11/ivys/ivy.xml ...
-[debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.irundaia.sbt/sbt-sassify/scala_2.10/sbt_0.13/1.4.11/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.irundaia.sbt/sbt-sassify/scala_2.10/sbt_0.13/1.4.11/ivys/ivy.xml.sha1
-[debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.irundaia.sbt/sbt-sassify/scala_2.10/sbt_0.13/1.4.11/ivys/ivy.xml
-[debug] 	[SUCCESSFUL ] org.irundaia.sbt#sbt-sassify;1.4.11!ivy.xml(ivy.original) (1580ms)
-[debug] 	found org.irundaia.sbt#sbt-sassify;1.4.11 in sbt-plugin-releases
+[debug] sbt-chain: module revision found in cache: org.irundaia.sbt#sbt-sassify;1.4.11
+[debug] 	found org.irundaia.sbt#sbt-sassify;1.4.11 in sbt-chain
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] == resolving dependencies org.irundaia.sbt#sbt-sassify;1.4.11->com.typesafe.sbt#sbt-web;1.4.2 [compile->default(compile)]
@@ -13410,24 +13398,9 @@
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] com.typesafe.play#sbt-plugin;2.8.1!sbt-plugin.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.irundaia.sbt/sbt-sassify/scala_2.10/sbt_0.13/1.4.11/jars/sbt-sassify.jar
-[info] downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.irundaia.sbt/sbt-sassify/scala_2.10/sbt_0.13/1.4.11/jars/sbt-sassify.jar ...
-[debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.irundaia.sbt/sbt-sassify/scala_2.10/sbt_0.13/1.4.11/jars/sbt-sassify.jar
-[debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.irundaia.sbt/sbt-sassify/scala_2.10/sbt_0.13/1.4.11/jars/sbt-sassify.jar.sha1
-[debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.irundaia.sbt/sbt-sassify/scala_2.10/sbt_0.13/1.4.11/jars/sbt-sassify.jar
-[info] 	[SUCCESSFUL ] org.irundaia.sbt#sbt-sassify;1.4.11!sbt-sassify.jar (5618ms)
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.irundaia.sbt/sbt-sassify/scala_2.10/sbt_0.13/1.4.11/srcs/sbt-sassify-sources.jar
-[info] downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.irundaia.sbt/sbt-sassify/scala_2.10/sbt_0.13/1.4.11/srcs/sbt-sassify-sources.jar ...
-[debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.irundaia.sbt/sbt-sassify/scala_2.10/sbt_0.13/1.4.11/srcs/sbt-sassify-sources.jar
-[debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.irundaia.sbt/sbt-sassify/scala_2.10/sbt_0.13/1.4.11/srcs/sbt-sassify-sources.jar.sha1
-[debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.irundaia.sbt/sbt-sassify/scala_2.10/sbt_0.13/1.4.11/srcs/sbt-sassify-sources.jar
-[info] 	[SUCCESSFUL ] org.irundaia.sbt#sbt-sassify;1.4.11!sbt-sassify.jar(src) (4927ms)
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.irundaia.sbt/sbt-sassify/scala_2.10/sbt_0.13/1.4.11/docs/sbt-sassify-javadoc.jar
-[info] downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.irundaia.sbt/sbt-sassify/scala_2.10/sbt_0.13/1.4.11/docs/sbt-sassify-javadoc.jar ...
-[debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.irundaia.sbt/sbt-sassify/scala_2.10/sbt_0.13/1.4.11/docs/sbt-sassify-javadoc.jar
-[debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.irundaia.sbt/sbt-sassify/scala_2.10/sbt_0.13/1.4.11/docs/sbt-sassify-javadoc.jar.sha1
-[debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.irundaia.sbt/sbt-sassify/scala_2.10/sbt_0.13/1.4.11/docs/sbt-sassify-javadoc.jar
-[info] 	[SUCCESSFUL ] org.irundaia.sbt#sbt-sassify;1.4.11!sbt-sassify.jar(doc) (2385ms)
+[debug] 	[NOT REQUIRED] org.irundaia.sbt#sbt-sassify;1.4.11!sbt-sassify.jar
+[debug] 	[NOT REQUIRED] org.irundaia.sbt#sbt-sassify;1.4.11!sbt-sassify.jar(src)
+[debug] 	[NOT REQUIRED] org.irundaia.sbt#sbt-sassify;1.4.11!sbt-sassify.jar(doc)
 [debug] 	[NOT REQUIRED] com.typesafe.play#sbt-routes-compiler_2.10;2.8.1!sbt-routes-compiler_2.10.jar
 [debug] 	[NOT REQUIRED] com.typesafe.play#run-support_2.10;2.8.1!run-support_2.10.jar
 [debug] 	[NOT REQUIRED] com.typesafe#config;1.4.0!config.jar(bundle)
@@ -13522,21 +13495,21 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.7!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 5197ms :: artifacts dl 12965ms
-[debug] 	report for default#wbschema2code-build;0.1-SNAPSHOT compile produced in /Users/laika/Documents/weso/wbschema2code/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-wbschema2code-build-compile.xml
-[debug] 	report for default#wbschema2code-build;0.1-SNAPSHOT runtime produced in /Users/laika/Documents/weso/wbschema2code/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-wbschema2code-build-runtime.xml
-[debug] 	report for default#wbschema2code-build;0.1-SNAPSHOT test produced in /Users/laika/Documents/weso/wbschema2code/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-wbschema2code-build-test.xml
-[debug] 	report for default#wbschema2code-build;0.1-SNAPSHOT provided produced in /Users/laika/Documents/weso/wbschema2code/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-wbschema2code-build-provided.xml
-[debug] 	report for default#wbschema2code-build;0.1-SNAPSHOT optional produced in /Users/laika/Documents/weso/wbschema2code/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-wbschema2code-build-optional.xml
-[debug] 	report for default#wbschema2code-build;0.1-SNAPSHOT compile-internal produced in /Users/laika/Documents/weso/wbschema2code/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-wbschema2code-build-compile-internal.xml
-[debug] 	report for default#wbschema2code-build;0.1-SNAPSHOT runtime-internal produced in /Users/laika/Documents/weso/wbschema2code/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-wbschema2code-build-runtime-internal.xml
-[debug] 	report for default#wbschema2code-build;0.1-SNAPSHOT test-internal produced in /Users/laika/Documents/weso/wbschema2code/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-wbschema2code-build-test-internal.xml
-[debug] 	report for default#wbschema2code-build;0.1-SNAPSHOT plugin produced in /Users/laika/Documents/weso/wbschema2code/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-wbschema2code-build-plugin.xml
-[debug] 	report for default#wbschema2code-build;0.1-SNAPSHOT sources produced in /Users/laika/Documents/weso/wbschema2code/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-wbschema2code-build-sources.xml
-[debug] 	report for default#wbschema2code-build;0.1-SNAPSHOT docs produced in /Users/laika/Documents/weso/wbschema2code/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-wbschema2code-build-docs.xml
-[debug] 	report for default#wbschema2code-build;0.1-SNAPSHOT pom produced in /Users/laika/Documents/weso/wbschema2code/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-wbschema2code-build-pom.xml
-[debug] 	report for default#wbschema2code-build;0.1-SNAPSHOT scala-tool produced in /Users/laika/Documents/weso/wbschema2code/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-wbschema2code-build-scala-tool.xml
-[debug] 	resolve done (5197ms resolve - 12965ms download)
+[debug] :: resolution report :: resolve 2623ms :: artifacts dl 41ms
+[debug] 	report for default#wbschema2code-build;0.1-SNAPSHOT compile produced in /Users/alejandro/Documents/weso/wikimedia/wbschema2code/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-wbschema2code-build-compile.xml
+[debug] 	report for default#wbschema2code-build;0.1-SNAPSHOT runtime produced in /Users/alejandro/Documents/weso/wikimedia/wbschema2code/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-wbschema2code-build-runtime.xml
+[debug] 	report for default#wbschema2code-build;0.1-SNAPSHOT test produced in /Users/alejandro/Documents/weso/wikimedia/wbschema2code/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-wbschema2code-build-test.xml
+[debug] 	report for default#wbschema2code-build;0.1-SNAPSHOT provided produced in /Users/alejandro/Documents/weso/wikimedia/wbschema2code/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-wbschema2code-build-provided.xml
+[debug] 	report for default#wbschema2code-build;0.1-SNAPSHOT optional produced in /Users/alejandro/Documents/weso/wikimedia/wbschema2code/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-wbschema2code-build-optional.xml
+[debug] 	report for default#wbschema2code-build;0.1-SNAPSHOT compile-internal produced in /Users/alejandro/Documents/weso/wikimedia/wbschema2code/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-wbschema2code-build-compile-internal.xml
+[debug] 	report for default#wbschema2code-build;0.1-SNAPSHOT runtime-internal produced in /Users/alejandro/Documents/weso/wikimedia/wbschema2code/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-wbschema2code-build-runtime-internal.xml
+[debug] 	report for default#wbschema2code-build;0.1-SNAPSHOT test-internal produced in /Users/alejandro/Documents/weso/wikimedia/wbschema2code/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-wbschema2code-build-test-internal.xml
+[debug] 	report for default#wbschema2code-build;0.1-SNAPSHOT plugin produced in /Users/alejandro/Documents/weso/wikimedia/wbschema2code/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-wbschema2code-build-plugin.xml
+[debug] 	report for default#wbschema2code-build;0.1-SNAPSHOT sources produced in /Users/alejandro/Documents/weso/wikimedia/wbschema2code/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-wbschema2code-build-sources.xml
+[debug] 	report for default#wbschema2code-build;0.1-SNAPSHOT docs produced in /Users/alejandro/Documents/weso/wikimedia/wbschema2code/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-wbschema2code-build-docs.xml
+[debug] 	report for default#wbschema2code-build;0.1-SNAPSHOT pom produced in /Users/alejandro/Documents/weso/wikimedia/wbschema2code/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-wbschema2code-build-pom.xml
+[debug] 	report for default#wbschema2code-build;0.1-SNAPSHOT scala-tool produced in /Users/alejandro/Documents/weso/wikimedia/wbschema2code/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-wbschema2code-build-scala-tool.xml
+[debug] 	resolve done (2623ms resolve - 41ms download)
 [info] Done updating.
 [warn] Found version conflict(s) in library dependencies; some are suspected to be binary incompatible:
 [warn] 

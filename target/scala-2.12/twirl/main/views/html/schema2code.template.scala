@@ -23,19 +23,41 @@ object schema2code extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.ap
       {
 
 
-Seq[Any](format.raw/*1.1*/("""<section id="top">
-  <div class="wrapper">
-    <h1>Hello, World!</h1>
+Seq[Any](format.raw/*1.1*/("""<link rel="stylesheet" href=""""),_display_(/*1.31*/routes/*1.37*/.Assets.versioned("stylesheets/home.css")),format.raw/*1.78*/("""">
+
+<section id="introduction">
+  <h1>Convert Schemas to Java code</h1>
+
+  <div id="steps" class="wrapper doc">
+    <h2>Steps:</h2>
+    <form id="schema-form">
+      <label for="endpoint">1.- Select a wikibase endpoint: </label>
+      <input id="endpoint-input" type="text" name="endpoint" value="https://weso-group.wiki.opencura"><br>
+      <label for="schema">2.- Select an entity schema: </label>
+      <input id="schema-input" type="text" name="schema" value="Schema..."><br>
+      <input type="submit" value="Load schema">
+    </form>
+
+    <h3>Or....</h3>
+    <p>Introduce your shex-lite code directly below:</p>
   </div>
 </section>
 
-<div id="content" class="wrapper doc">
-  <form>
-    <label for="schema">Entity schema: </label><br>
-    <input type="text" name="schema" value="Schema..."><br>
-    <input type="submit" value="Submit">
-  </form>
-</div>
+<section id="code-generation-section">
+
+  <div id="shexl-input">
+    <h2>Shexl input</h2>
+    <textarea name="shexl-text" rows="8" cols="80"></textarea>
+  </div>
+
+  <button id="generate-code-btn" type="button" name="button">Generate code</button>
+
+  <div id="code-output">
+    <h2>Code output</h2>
+    <textarea name="code-text" rows="8" cols="80"></textarea>
+  </div>
+
+</section>
 """))
       }
     }
@@ -52,11 +74,11 @@ Seq[Any](format.raw/*1.1*/("""<section id="top">
 
               /*
                   -- GENERATED --
-                  DATE: 2020-02-28T09:01:35.740
-                  SOURCE: /Users/laika/Documents/weso/wbschema2code/app/views/schema2code.scala.html
-                  HASH: ba1980dc2a9b0ada7ee10eb59d77ab637f525121
-                  MATRIX: 817->0
-                  LINES: 26->1
+                  DATE: 2020-02-29T22:55:39.296
+                  SOURCE: /Users/alejandro/Documents/weso/wikimedia/wbschema2code/app/views/schema2code.scala.html
+                  HASH: e9ec112b5dcd2bba113e3fb39bcd139ebec9d47b
+                  MATRIX: 817->0|873->30|887->36|948->77
+                  LINES: 26->1|26->1|26->1|26->1
                   -- GENERATED --
               */
           

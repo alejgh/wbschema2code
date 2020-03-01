@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
-// @SOURCE:/Users/laika/Documents/weso/wbschema2code/conf/routes
-// @DATE:Wed Feb 26 09:41:50 CET 2020
+// @SOURCE:/Users/alejandro/Documents/weso/wikimedia/wbschema2code/conf/routes
+// @DATE:Sat Feb 29 11:50:44 CET 2020
 
 import play.api.routing.JavaScriptReverseRoute
 

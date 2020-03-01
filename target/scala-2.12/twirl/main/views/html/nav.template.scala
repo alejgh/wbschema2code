@@ -63,8 +63,8 @@ Seq[Any](format.raw/*1.1*/("""<nav>
 
               /*
                   -- GENERATED --
-                  DATE: 2020-02-27T18:34:09.672
-                  SOURCE: /Users/laika/Documents/weso/wbschema2code/app/views/nav.scala.html
+                  DATE: 2020-02-29T11:50:44.707
+                  SOURCE: /Users/alejandro/Documents/weso/wikimedia/wbschema2code/app/views/nav.scala.html
                   HASH: 328c174c790e2a6baf9384c2626f2cdc3b2976db
                   MATRIX: 809->0
                   LINES: 26->1

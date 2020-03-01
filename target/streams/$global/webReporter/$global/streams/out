@@ -1,10 +1,10 @@
-[error] /Users/laika/Documents/weso/wbschema2code/app/assets/stylesheets/nav.sass:4: Error: Mixin "shadow2xl" does not accept a content block.
+[error] /Users/alejandro/Documents/weso/wikimedia/wbschema2code/target/web/web-modules/main/webjars/lib/bulma/sass/base/helpers.sass:4: Error: no mixin named clearfix
 [error] 
 [error]        Backtrace:
-[error]        	app/assets/stylesheets/nav.sass:4
-[error]         on line 4 of app/assets/stylesheets/nav.sass
-[error] >>   @include shadow2xl {
+[error]        	target/web/web-modules/main/webjars/lib/bulma/sass/base/helpers.sass:4
+[error]         on line 4 of target/web/web-modules/main/webjars/lib/bulma/sass/base/helpers.sass
+[error] >>   @include clearfix; }
 [error]    -----------^
-[error]   +shadow2xl
+[error]   +clearfix
 [error]            ^
 [error] one error found

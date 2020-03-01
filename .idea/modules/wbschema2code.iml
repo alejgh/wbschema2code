@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id="wbschema2code [file:/Users/laika/Documents/weso/wbschema2code/]" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" type="JAVA_MODULE" version="4">
+<module external.linked.project.id="wbschema2code [file:/Users/alejandro/Documents/weso/wikimedia/wbschema2code/]" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output url="file://$MODULE_DIR$/../../target/scala-2.12/classes" />
     <output-test url="file://$MODULE_DIR$/../../target/scala-2.12/test-classes" />
@@ -11,6 +11,7 @@
       <sourceFolder url="file://$MODULE_DIR$/../../target/scala-2.12/routes/main" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../target/scala-2.12/twirl/main" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../app/assets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../target/web/sass/main" type="java-resource" />
       <excludeFolder url="file://$MODULE_DIR$/../../target" />
       <excludeFolder url="file://$MODULE_DIR$/../../target/streams" />
       <excludeFolder url="file://$MODULE_DIR$/../../target/web" />
@@ -150,6 +151,5 @@
     <orderEntry type="library" name="sbt: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.10.1:jar" level="project" />
     <orderEntry type="library" name="sbt: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.10.1:jar" level="project" />
     <orderEntry type="library" name="sbt: org.slf4j:slf4j-api:1.7.29:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.webjars.bower:compass-mixins:0.12.7:jar" level="project" />
   </component>
 </module>

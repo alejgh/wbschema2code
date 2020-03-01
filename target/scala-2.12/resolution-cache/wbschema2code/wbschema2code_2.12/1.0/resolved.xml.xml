@@ -4,7 +4,7 @@
 		module="wbschema2code_2.12"
 		revision="1.0"
 		status="integration"
-		publication="20200227154927"
+		publication="20200229222825"
 	>
 		<description>
 		wbschema2code
@@ -57,6 +57,5 @@
 		<dependency org="com.typesafe.play" name="play-ahc-ws_2.12" rev="2.8.1" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-specs2_2.12" rev="2.8.1" conf="test->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-guice_2.12" rev="2.8.1" conf="compile->default(compile)"/>
-		<dependency org="org.webjars.bower" name="compass-mixins" rev="0.12.7" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
