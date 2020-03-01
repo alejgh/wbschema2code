@@ -11,18 +11,32 @@
 
 
 #steps
+
+  border-width: 2px
+  border-color: black
+
   h2
     font-weight: bold
     font-size: 1.35rem
 
   #schema-form
-    padding: 2rem
-    border-width: 2px
-    border-color: black
+    padding: 1.675rem
+
+    label
+      margin-right: 1rem
+
+    #endpoint-container, #schema-container
+      display: flex
+      flex-direction: row
+      justify-content: space-between
+      align-items: center
+      margin-bottom: 1rem
 
     input[type=text]
       border-width: 1px
       border-color: $gray-500
+      border-radius: 0.25rem
+      padding: 0.5rem
 
     input[type=submit]
       padding: 0.5rem

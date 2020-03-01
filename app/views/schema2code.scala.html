@@ -6,10 +6,15 @@
   <div id="steps" class="wrapper doc">
     <h2>Steps:</h2>
     <form id="schema-form">
-      <label for="endpoint">1.- Select a wikibase endpoint: </label>
-      <input id="endpoint-input" type="text" name="endpoint" value="https://weso-group.wiki.opencura"><br>
-      <label for="schema">2.- Select an entity schema: </label>
-      <input id="schema-input" type="text" name="schema" value="Schema..."><br>
+      <div id="endpoint-container">
+        <label for="endpoint">1.- Select a wikibase endpoint: </label>
+        <input id="endpoint-input" type="text" name="endpoint" value="https://weso-group.wiki.opencura"><br>
+      </div>
+
+      <div id="schema-container">
+        <label for="schema">2.- Select an entity schema: </label>
+        <input id="schema-input" type="text" name="schema" value="Schema..."><br>
+      </div>
       <input type="submit" value="Load schema">
     </form>
 

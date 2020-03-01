@@ -1,4 +1,0 @@
-[debug] Copy resource mappings: 
-[debug] 	(/Users/alejandro/Documents/weso/wikimedia/wbschema2code/conf/application.conf,/Users/alejandro/Documents/weso/wikimedia/wbschema2code/target/scala-2.12/classes/application.conf)
-[debug] 	(/Users/alejandro/Documents/weso/wikimedia/wbschema2code/conf/logback.xml,/Users/alejandro/Documents/weso/wikimedia/wbschema2code/target/scala-2.12/classes/logback.xml)
-[debug] 	(/Users/alejandro/Documents/weso/wikimedia/wbschema2code/conf/routes,/Users/alejandro/Documents/weso/wikimedia/wbschema2code/target/scala-2.12/classes/routes)
